@@ -5,6 +5,15 @@ import Robots from '../robots';
 import './App.css';
 import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundry';
+import { BrowserRouter as Router } from "react-router-dom";
+
+function App() {
+  return (
+    <Router basename="/robofriendsapp">
+      {/* rest of your app code */}
+    </Router>
+  );
+}
 
 
 class App extends React.Component {
